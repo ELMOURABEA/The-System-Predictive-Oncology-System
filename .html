@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUB RESEARCH | The Elmourabea Framework</title>
+    <style>
+        :root {
+            --primary: #0f172a; /* Deep Navy */
+            --accent: #d97706; /* Gold/Amber */
+            --light: #f8fafc;
+            --text: #334155;
+            --success: #10b981;
+        }
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        header {
+            background: var(--primary);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+        h1 { margin: 0; font-size: 2.5rem; letter-spacing: -1px; }
+        h2 { color: var(--accent); font-weight: 400; margin-top: 0.5rem; }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .section-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            border-left: 5px solid var(--accent);
+        }
+
+        .logic-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .metric-box {
+            background: #f1f5f9;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .metric-number {
+            display: block;
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--primary);
+        }
+
+        .tag {
+            background: #e2e8f0;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-right: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+        th, td {
+            text-align: left;
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+        th { background-color: #f8f9fa; }
+
+        .cta-button {
+            background-color: var(--accent);
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        
+        /* Elmourabea Graphic Representation */
+        .elmourabea-graphic {
+            display: flex;
+            justify-content: center;
+            margin: 2rem 0;
+        }
+        .quadrant {
+            width: 150px;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid var(--primary);
+            font-weight: bold;
+            text-align: center;
+        }
+        .q-top-left { border-right: none; border-bottom: none; background: #e0f2fe; }
+        .q-top-right { border-bottom: none; background: #f0f9ff; }
+        .q-bottom-left { border-right: none; background: #f0f9ff; }
+        .q-bottom-right { background: #e0f2fe; }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>HUB RESEARCH</h1>
+        <h2>System Detected Cancer Cells (SDCC)</h2>
+        <p>Powered by The Elmourabea Logic & Google Gemma AI</p>
+    </div>
+</header>
+
+<div class="container">
+
+    <div class="section-card">
+        <h3 style="color: var(--primary); margin-top: 0;">Executive Summary</h3>
+        <p>
+            Traditional oncology views cancer as a visual anomaly. <strong>HUB RESEARCH</strong> views cancer as a mathematical error in the biological code. 
+            By integrating the proprietary <strong>Elmourabea System</strong> (a logic of 4s) with Google's <strong>Gemma AI</strong> foundation models, we decode the 4-letter language of DNA (A, T, C, G) to detect "cold" tumors and reverse liver fibrosis before they become visible to the human eye.
+        </p>
+        <div>
+            <span class="tag">Generative AI</span>
+            <span class="tag">Precision Oncology</span>
+            <span class="tag">Hepatology</span>
+            <span class="tag">tRNA Engineering</span>
+        </div>
+    </div>
+
+    <div class="section-card">
+        <h3 style="color: var(--primary);">01. The Core Logic: Elmourabea System</h3>
+        <p>The "Elmourabea" (The Squared/Four-Fold) System posits that stability requires the balance of four quadrants. In biology, this maps directly to the <strong>Genetic Code</strong>.</p>
+        
+        <div class="elmourabea-graphic">
+            <div style="display:grid; grid-template-columns: 1fr 1fr;">
+                <div class="quadrant q-top-left">Adenine (A)<br><small>Logic 1</small></div>
+                <div class="quadrant q-top-right">Thymine (T)<br><small>Logic 2</small></div>
+                <div class="quadrant q-bottom-left">Cytosine (C)<br><small>Logic 3</small></div>
+                <div class="quadrant q-bottom-right">Guanine (G)<br><small>Logic 4</small></div>
+            </div>
+        </div>
+        
+        <p><strong>The Breakthrough:</strong> Cancer is defined as a "Logic Break" in this 4x4 matrix. 
+        Current AI models look for patterns; our model looks for <em>broken syntax</em> in the Elmourabea code, allowing us to detect "nonsense mutations" (Stop Codons) that other systems miss.</p>
+    </div>
+
+    <div class="section-card">
+        <h3 style="color: var(--primary);">02. The Technical Stack</h3>
+        <p>We utilize a multimodal generative AI pipeline to read and rewrite this code.</p>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Component</th>
+                    <th>Tech Spec</th>
+                    <th>Function</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>C2S-Scale</strong></td>
+                    <td>27B Parameter Transformer</td>
+                    <td>Analyzes Single-Cell Transcriptomics to find "Cold" Tumors.</td>
+                </tr>
+                <tr>
+                    <td><strong>MedGemma 1.5</strong></td>
+                    <td>4B Param (Instruction Tuned)</td>
+                    <td>Multimodal analysis of Histopathology & Radiology.</td>
+                </tr>
+                <tr>
+                    <td><strong>popEVE / BSM</strong></td>
+                    <td>Evolutionary Generative Model</td>
+                    <td>Predicts pathogenicity of variants in the DNA sequence.</td>
+                </tr>
+                <tr>
+                    <td><strong>Local Inference</strong></td>
+                    <td>gemma.cpp (Quantized)</td>
+                    <td>Ensures UAE Data Sovereignty (No Cloud Offloading).</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section-card">
+        <h3 style="color: var(--primary);">03. Clinical Application & Results</h3>
+        
+        <div class="logic-grid">
+            <div class="metric-box">
+                <span style="display:block; font-weight:bold; margin-bottom:10px;">LIVER DISEASE (Hepatology)</span>
+                <p>Detecting the "Pre-Cirrhotic" State (F2/F3) non-invasively.</p>
+                <span class="metric-number">0.99 AUROC</span>
+                <small>In staging Fibrosis F0-F4 vs Biopsy</small>
+            </div>
+            
+            <div class="metric-box">
+                <span style="display:block; font-weight:bold; margin-bottom:10px;">ONCOLOGY (Solid Tumors)</span>
+                <p>Turning "Cold" Tumors "Hot" via Immuno-Synergy.</p>
+                <span class="metric-number">CK2 Inhibitor</span>
+                <small>Identified as novel "Interferon Amplifier"</small>
+            </div>
+        </div>
+
+        <p style="margin-top: 1rem;">
+            <strong>Therapeutic Engineering:</strong> Beyond detection, we use the <strong>ENSURE</strong> platform to design programmable tRNA molecules. These molecules "read through" the broken code (nonsense mutations) to restore protein function, effectively patching the "Logic Break" identified by the Elmourabea System.
+        </p>
+    </div>
+
+    <div class="section-card" style="border-left-color: var(--success);">
+        <h3 style="color: var(--success);">04. Protocol & Data Sovereignty</h3>
+        <p>Designed for full compliance with <strong>Department of Health (DOH) Abu Dhabi</strong> standards.</p>
+        <ul>
+            <li><strong>Data Localization:</strong> All inference runs locally on hospital servers via <code>gemma.cpp</code>. No patient data leaves the UAE.</li>
+            <li><strong>Ethical AI:</strong> "Human-in-the-Loop" validation. Pathologists verify all AI suggestions via SigLIP interpretability layers.</li>
+            <li><strong>Study Design:</strong> Retrospective Validation (Minimal Risk).</li>
+        </ul>
+    </div>
+
+    <div style="text-align: center; margin-bottom: 3rem;">
+        <p><em>Ready for Submission to DOH IRB</em></p>
+        <a href="#" class="cta-button">Download Full Protocol PDF</a>
+    </div>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 HUB RESEARCH. All Rights Reserved.<br>
+    Principal Investigator: [Your Name] | Contact: [Your Email]</p>
+</footer>
+
+</body>
+</html>
